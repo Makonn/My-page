@@ -1,0 +1,216 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.12.2016, 13:55:11
+    Author     : Makonn
+*/
+
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    font-size: 200%;
+    margin: 3%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#menus{
+    margin-top: 20%;
+}
+
+#mainDiv{
+    animation-name: none;
+    animation-duration: 0.7s;
+    display: block;
+}
+
+#designDiv{
+    animation-name: animateFromLeft;
+    animation-duration: 0.7s;
+    display: none;
+}
+
+#codeDiv{
+    animation-name: animateFromLeft;
+    animation-duration: 0.7s;
+    display: none;
+}
+
+#cvDiv{
+    animation-name: animateFromLeft;
+    animation-duration: 0.7s;
+    display: none;
+}
+
+#contactDiv{
+    animation-name: animateFromLeft;
+    animation-duration: 0.7s;
+    display: none;
+}
+
+#oranssi{
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background: orange;
+}
+
+#musta{
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background: black;
+}
+#punainen{
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background: red;
+}
+#vihrea{
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background: green;
+}
+#sininen{
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background: blue;
+}
+
+/* Add Animation right side*/
+@-webkit-keyframes animateFromMidToRight {
+    from {
+        margin-right: 0%;
+    } 
+    to {
+        margin-left: -200%;
+    }
+}
+
+@keyframes animateFromMidToRight {
+    from {
+        margin-right: 0;
+    } 
+    to {
+        margin-left: -200%; 
+    }
+}
+
+/* Add Animation right side*/
+@-webkit-keyframes animateFromMidToLeft {
+    from {
+        margin-right: 0;
+    } 
+    to {
+        margin-left: -200%;
+    }
+}
+
+@keyframes animateFromMidToLeft {
+    from {
+        margin-right: 0;
+    } 
+    to {
+        margin-left: -200%; 
+    }
+}
+
+/* Add Animation right side*/
+@-webkit-keyframes animateFromRight {
+    from {
+        margin-right: -200%;
+    } 
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes animateFromRight {
+    from {
+        margin-right: -200%;
+    } 
+    to {
+        margin-right: 0; 
+    }
+}
+
+
+/* Add Animation right side*/
+@-webkit-keyframes animateFromLeft {
+    from {
+        margin-left: -200%;
+    } 
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes animateFromLeft {
+    from {
+        margin-left: -200%;
+    } 
+    to {
+        margin-left: 0; 
+    }
+}
+
+/* Add Animation right side middle*/
+@-webkit-keyframes animateFromLeftMiddle {
+    from {
+        margin-left: -200%;
+    } 
+    to {
+        margin-right: -200%;
+    }
+}
+
+@keyframes animateFromLeftMiddle {
+    from {
+        margin-left: -200%;
+    } 
+    to {
+        margin-right: -200%; 
+    }
+}
+
+/* Add Animation right side*/
+@-webkit-keyframes animateFromRightMiddle {
+    from {
+        margin-right: -200%;
+    } 
+    to {
+        margin-left: -200%;
+    }
+}
+
+@keyframes animateFromRightMiddle {
+    from {
+        margin-right: -200%;
+    } 
+    to {
+        margin-left: -200%;
+    }
+}
