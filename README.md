@@ -1,2 +1,7 @@
 # My-page
-http://people.uta.fi/~makkonen.petja.u/projektit/My%20page/
+
+Work in progress portfolio page with animations.
+
+Trigger warning.
+
+Will contain uncommented and unnecessary code.
